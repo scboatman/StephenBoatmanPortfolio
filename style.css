@@ -1,0 +1,88 @@
+body {
+	background-color:green;
+	color:white;
+	height: 100%;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+header {
+	border: 5px solid white;
+	border-radius: 15px;
+	margin: 20px;
+	padding: 20px;
+}
+nav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+}
+
+
+#mail {
+   border: 2px solid black;
+    margin-top: 15%;
+    background-color: sienna;
+}
+
+a:hover {
+    background-color: white;
+}
+article {
+	border: 5px solid white;
+	border-radius: 10px;
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+}
+section {
+	border: 5px solid white;
+	border-radius: 20px;
+	padding: 10px;
+	margin:10px;
+}
+
+#image{
+	display: block;
+	margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+p {
+	width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
+h1, h2 {
+	text-align: center;
+}
+p {
+	text-indent: 40px;
+	padding: 10px;
+
+}
+#aboutme {
+	float: left;
+}
+#contact {
+	display: inline-block;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
+footer a {
+	border: 5px solid white;
+	padding: 10px;
+	border-radius: 20px;
+	display: inline-block;
+	text-align: center;
+}
+
+footer li {
+	list-style: none;
+	display: inline;
+}
