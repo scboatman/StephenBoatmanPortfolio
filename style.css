@@ -112,3 +112,7 @@ form{
     background-color: grey;
     font-family: sans-serif;
 }
+#table, tr, th{
+	border: 1px solid black;
+    border-collapse: collapse;
+}
