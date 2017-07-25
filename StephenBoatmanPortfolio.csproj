@@ -1,0 +1,112 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{DC7311C4-D4DE-46A6-836B-2C8EF7844A49}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>StephenBoatmanPortfolio</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="contact.html" />
+    <Content Include="fibbinoci.js" />
+    <Content Include="index.html" />
+    <Content Include="portfolio.html" />
+    <Content Include="script.js" />
+    <Content Include="Stephen3.jpg" />
+    <Content Include="style.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\COMMIT_EDITMSG" />
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\FETCH_HEAD" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\master" />
+    <None Include=".git\logs\refs\remotes\origin\master" />
+    <None Include=".git\objects\18\d08cc131cecfe9a5acd6c038c0af97cff5f673" />
+    <None Include=".git\objects\1f\b4a83f88dfe441993cc27576755be96e443386" />
+    <None Include=".git\objects\3a\35bcafe67d913151cdebb542fe28292da0424f" />
+    <None Include=".git\objects\3f\0554503523912eef60288095c3f51f93b7910f" />
+    <None Include=".git\objects\46\f3fe2aef85ced4d02bd780edc0bf4c384d2d10" />
+    <None Include=".git\objects\52\eb78e11bbaa34f438ad5e73c1a1f1d4dfc8764" />
+    <None Include=".git\objects\64\05c0618460f3b5d07b6c2c6ea0d9639b5299a2" />
+    <None Include=".git\objects\66\2667a725500b4bc16f115192620ff3e71e3c16" />
+    <None Include=".git\objects\6f\8deeef0641b3710b9abf851e98a9508c0822c5" />
+    <None Include=".git\objects\71\e87a913c69779eba316536412545f7140026c1" />
+    <None Include=".git\objects\82\cce4e0fe6ddf81ca89658bae4ea8673e0e95e5" />
+    <None Include=".git\objects\8d\30bc76e55ff2338d7170f95efac95dc403e61c" />
+    <None Include=".git\objects\8e\2e7c28c27179ba0dcd71d946282b9ea1792d81" />
+    <None Include=".git\objects\a1\2ffc84ad9a1be752efb54fa54296ca3d2f3f3e" />
+    <None Include=".git\objects\cc\35c1df2caa93681dc09d66b3c37ed898755f19" />
+    <None Include=".git\objects\e8\4dc6af41708b22eb90d1782832af4a93dcb81f" />
+    <None Include=".git\objects\f7\d61f5a92fe9678b415aeab856f403c43b29de8" />
+    <None Include=".git\objects\f8\4ae4ce190365b8dac07a710907ad2391f60692" />
+    <None Include=".git\ORIG_HEAD" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".git\refs\remotes\origin\master" />
+    <None Include=".vs\config\applicationhost.config" />
+    <None Include=".vs\Portfolio\v15\.suo" />
+    <None Include=".vs\ProjectSettings.json" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="_config.yml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\objects\pack\" />
+    <Folder Include=".git\refs\tags\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

@@ -1,5 +1,5 @@
 body {
-	background-color:green;
+	background-color:teal;
 	color:white;
 	height: 100%;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
@@ -103,4 +103,12 @@ footer a {
 footer li {
 	list-style: none;
 	display: inline;
+}
+form{
+	border: 4px solid black;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+    font-family: sans-serif;
 }
